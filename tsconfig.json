@@ -1,0 +1,27 @@
+{
+  "include": [
+    "./src/"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "allowJs": true,
+    "target": "es2017",
+    "declaration": true,
+    "incremental": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "strictBindCallApply": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": false,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": false
+  }
+}
